@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-02T12:16:20+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">localde çalışıyordu</title><subtitle>Yazılım/Programlama grubundan haftalık haber bülteni</subtitle><entry><title type="html">Bülten #1: Initial Commit</title><link href="http://localhost:4000/2026/02/02/feb-1.html" rel="alternate" type="text/html" title="Bülten #1: Initial Commit" /><published>2026-02-02T00:00:00+03:00</published><updated>2026-02-02T00:00:00+03:00</updated><id>http://localhost:4000/2026/02/02/feb-1</id><content type="html" xml:base="http://localhost:4000/2026/02/02/feb-1.html"><![CDATA[<p><em>Localde çalışıyordu</em> bülteninin ilk sayısına hoşgeldiniz! <strong>Yazılım/Programlama grubunun</strong> yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşacağız.</p>
+
+<p>İlk elin günahı olmaz diyerek ilk sayıyı çok plan yapmadan, çok düşünmeden hazırladım. Sizlerin de görüşlerinize göre hangi tonda devam ettireceğimize karar verme niyetindeyim. Şimdiden iyi okumalar!</p>
+
+<hr />
+
+<p><br /></p>
+
+<p>Hackernews’te insanlar programlama işlerini <a href="https://news.ycombinator.com/item?id=46710108">nasıl otomatize ettiklerini</a> tartışmışlar.</p>
+
+<p>Konuşmalara göre artık ChatGPT gibi sohbet arayüzleri bile (çok yakın geçmişte birer mucize olmalarına rağmen) yeterli olmayabiliyor. İnsanlar daha ciddi otomasyonlarla çalışıyorlar. Yine de geliştirici, çözümün neye benzemesi gerektiğini önceden bilmeli ve AI’yı sadece bu hedefe ulaşmak için bir araç olarak kullanmalıdır diyorlar.</p>
+
+<p>Bir kullanıcı, AI ile dakikalarca doğru promptu bulmak için tartışmayı, bir alışveriş merkezinde kapıya en yakın yeri bulmak için 15 dakika otoparkta dönmeye benzetmiş. Oysa arabayı uzağa park edip bir dakika yürümek (yani kodu manuel düzeltmek) çok daha hızlı diye belirtip “ne zaman müdahele etmen gerektiğini” bilmenin öneminden bahsetmiş.</p>
+
+<p>go resmi blogunda <a href="https://go.dev/blog/survey2025">yayınlanan anket</a> sonuçlarına göre</p>
+
+<p>WIP</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Localde çalışıyordu bülteninin ilk sayısına hoşgeldiniz! Yazılım/Programlama grubunun yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşacağız.]]></summary></entry></feed>
