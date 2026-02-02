@@ -1,7 +1,7 @@
 title: localde çalışıyordu
 description: Yazılım/Programlama grubundan haftalık haber bülteni
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://github.com/Bilgisayar-Kavramlari-Toplulugu/localde-calisiyordu" 
 markdown: kramdown
 # theme: minima # Removed to use custom layouts exclusively.
 plugins:
