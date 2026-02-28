@@ -7,6 +7,8 @@
 
 **Part of [localde çalışıyordu Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir.](docs/Project-Definition.md)**
 
+Site Jekyll tabanlıdır ve GitHub Pages üzerinde barındırılmaktadır.
+
 </div>
 
 ---
