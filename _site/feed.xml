@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-01T14:15:45+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">localde çalışıyordu</title><subtitle>Yazılım/Programlama grubundan haftalık haber bülteni</subtitle><entry><title type="html">Bülten #2: Algoritmalar Geleceği, Biz Kodları Değiştiriyoruz</title><link href="http://localhost:4000/2026/02/09/feb-2.html" rel="alternate" type="text/html" title="Bülten #2: Algoritmalar Geleceği, Biz Kodları Değiştiriyoruz" /><published>2026-02-09T00:00:00+03:00</published><updated>2026-02-09T00:00:00+03:00</updated><id>http://localhost:4000/2026/02/09/feb-2</id><content type="html" xml:base="http://localhost:4000/2026/02/09/feb-2.html"><![CDATA[<p><em>Localde çalışıyordu</em> bülteninin bu haftaki sayısına hoşgeldiniz! <strong>Yazılım/Programlama grubunun</strong> yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşıyoruz.</p>
+
+<hr />
+
+<p><br /></p>
+
+<h3 id="yazılımprogramlama-grubundan">Yazılım/Programlama Grubundan</h3>
+
+<p>Günlük sorularımız devam ediyor, her gün bir soru paylaşılıyor ve cevapları alıyoruz. 🌱</p>
+
+<p>Atilla’nın yaptığı canlı programlama etkinliğinin kaydına <a href="https://drive.google.com/file/d/1xdd0okVOtCcWoP_HDB8Uf_OFFpljMIrd/view?pli=1">bu linkten</a> ulaşabilirsiniz. Projenin devamını ikinci bir etlinlikte en kısa zamanda planlayacağız, takipte kalın!</p>
+
+<p>Programlama öğrenmeye yeni başlayan arkadaşlar için faydalı olabilecek <a href="https://bilgisayarkavramlari.com/2026/01/29/programlamada-yardim-almak/">programlamada yardım almak</a> başlıklı blog yazımız geçtiğimiz haftalarda yayınlandı, duyurusunu buraya da eklemiş olalım.</p>
+
+<p>10 Şubat Salı günü saat 20:00’da Fatih,
+<strong>Geleceği Değiştiren Algoritmalar</strong> 
+isimli bir kitap incelemesi ve sohbet etkinliğinde bizlerle olacak.  Geleceğimizi şekillendiren teknolojilerin arkasında hangi algoritmalar var, nasıl çalışıyorlar ve neyi nasıl değiştirdiler gibi sorulara cevap arayıp tartışacağız bu etkinlikte.  Her gün kullandığımız teknolojilerin arkasındaki parlak fikirleri merak edenler kaçırmasın derim! Etkinlik saatinde linkimizi paylaşacağız 🚀</p>
+
+<p>Ayrıca 14 Şubat için de günün anlam ve önemine uygun bir etkinlik planlıyoruz, detayları yakında paylaşacağız. :)</p>
+
+<h3 id="haftanın-fikirleri">Haftanın Fikirleri</h3>
+<ul>
+  <li>
+    <p>TimescaleDB iken yeniden şekillenen ve değişen TigerData <a href="https://www.tigerdata.com/blog/its-2026-just-use-postgres">It’s 2026, just use Postgres</a> adlı yazısında Postgres’in nasıl “one DB to rule them all” olabileceğinden bahsetmiş.</p>
+  </li>
+  <li>
+    <p>Hackernews’te geliştiriciler bu hafta “yapay zeka döneminde programlama öğrenmekte zorlananalar var mı?” başlığı altında <a href="https://news.ycombinator.com/item?id=46866165">tartıştılar.</a></p>
+
+    <p>Tartışma, asıl problemin “AI kullanmak mı kullanmamak mı” olmadığını gösteriyor. Mesele, AI’nin düşünmenin yerini alıp almadığı. Deneyimli geliştiricilerin çoğu, AI’yi hızlandırıcı bir asistan olarak görürken, temelleri öğrenmeden tamamen AI’ye yaslanmanın yüzeysel bilgi ve sahte bir özgüven yarattığı konusunda hemfikir. Ayrıca AI destekli geliştirmenin impostor sendromu ve kariyer konusunda anksiyeteyi desteklediğini konuşuyorlar. Özetle: AI güçlü bir araç, ama direksiyonda hala insan olmalı diyorlar.</p>
+  </li>
+  <li>
+    <p><a href="https://www.anthropic.com/news/claude-opus-4-6">Claude Opus 4.6</a> ve <a href="https://openai.com/index/introducing-gpt-5-3-codex">GPT-5.3-Codex</a> yayınlandı. 
+Bu sürümlerin ikisinin de özellikle kodlama becerileri konusunda önceki sürümlere göre ciddi gelişmeler içerdiğini iddia ediyorlar. Yapay zekaların bizim yakamızdan düşüp biraz da sağlık, eğitim, hizmet sektörü gibi diğer alanlara yönelmelerini dört gözle bekliyoruz. :)</p>
+  </li>
+  <li>
+    <p><a href="https://pyfound.blogspot.com/2026/01/your-python-your-voice-join-python.html">Python Developer Survey 2026</a> hala cevap topluyor. Python topluluğunun güncel eğilimleri hakkındaki sonuçlara katkıda bulunmak isterseniz anketi doldurabilirsiniz.</p>
+  </li>
+  <li>
+    <p>Daha fazla haberi okuyabileceğiniz/paylaşabileceğiniz <em>Yazılım Dünyasından Haberler</em> başlığını da grubumuzun kanalı altında açtık, bu haftak, diğer gelişmeler için oraya da göz atabilirsiniz.</p>
+  </li>
+</ul>
+
+<h3 id="kurcalamaca">Kurcalamaca</h3>
+<p><a href="https://www.makingsoftware.com/">Making Software</a> isimli bu çalışmada Dan Hollick, “yazılım tasarlayan ve geliştiren insanlar için bir rehber” olarak tanımladığı bir kitap yazıyor. Kitap şu an geliştirme aşamasında, biten bölümler oldukça da bülteni aracılığıyla paylaşılıyor. Güzel illüstrasyonlarla süslenmiş bu çalışmaya bir göz atmanızı öneririm.</p>
+
+<h3 id="yazarın-seçkisi">Yazarın Seçkisi</h3>
+<p>Bu hafta <a href="https://strangestloop.io/essays/things-that-arent-doing-the-thing">things that aren’t doing the thing</a> adlı bu küçük motivasyon yazısını öneriyorum. <strong>Sizlerin bu hafta, “yapıyorum” demekle kalmayıp gerçekten yapacağınız bir şey var mı?</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>Haftaya görüşmek üzere!</p>
+
+<p>Hilal 🐙</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Localde çalışıyordu bülteninin bu haftaki sayısına hoşgeldiniz! Yazılım/Programlama grubunun yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşıyoruz.]]></summary></entry><entry><title type="html">Bülten #1: Initial Commit</title><link href="http://localhost:4000/2026/02/02/feb-1.html" rel="alternate" type="text/html" title="Bülten #1: Initial Commit" /><published>2026-02-02T00:00:00+03:00</published><updated>2026-02-02T00:00:00+03:00</updated><id>http://localhost:4000/2026/02/02/feb-1</id><content type="html" xml:base="http://localhost:4000/2026/02/02/feb-1.html"><![CDATA[<p><em>Localde çalışıyordu</em> bülteninin ilk sayısına hoşgeldiniz! <strong>Yazılım/Programlama grubunun</strong> yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşacağız.</p>
+
+<p>İlk elin günahı olmaz diyerek ilk sayıyı çok plan yapmadan, çok düşünmeden hazırladım. Sizlerin de görüşlerinize göre hangi tonda devam ettireceğimize karar verme niyetindeyim. Şimdiden iyi okumalar!</p>
+
+<hr />
+
+<p><br /></p>
+
+<h3 id="grupta-yaptıklarımız">Grupta Yaptıklarımız</h3>
+<p>Yazılım/Programlama grubunda geçtiğimiz hafta Sena sayesinde günlük bilgi tazeleyici soruları görmeye başladık. Her gün bir soru paylaşılıyor ve cevapları alıyoruz. 🌱</p>
+
+<p>Atilla, geçen hafta sıfırdan bir proje başlattı ve bu projeyi canlı yayında soruları cevaplayarak geliştirdi. Kendisine teşekkür ediyoruz. Projenin devamını da yakında ikinci bir etkinlikte getirecek, üstelik etkinlik kaydını ve kaynak kodlarını da paylaşacağız. Proje topluluğun katkılarına açık olacak. 🚀</p>
+
+<p>Yeni kurulan yönetim ekibimizle ilk haftadan etkinliklerimize başladık. Planlamalara devam ediyoruz, önümüzdeki haftalarda duyuracağımız yeni etkinlikler için takipte kalın!</p>
+
+<h3 id="haftanın-fikirleri">Haftanın Fikirleri</h3>
+<ul>
+  <li>
+    <p>Hackernews’te insanlar programlama işlerini <a href="https://news.ycombinator.com/item?id=46710108">nasıl otomatize ettiklerini</a> tartışıyordu.</p>
+
+    <p>Konuşmalara göre artık ChatGPT gibi sohbet arayüzleri bile (çok yakın geçmişte birer mucize olmalarına rağmen) yeterli olmayabiliyor. İnsanlar daha ciddi otomasyonlarla çalışıyorlar. Yine de geliştirici, çözümün neye benzemesi gerektiğini önceden bilmeli ve AI’yı sadece bu hedefe ulaşmak için bir araç olarak kullanmalıdır diyorlar.</p>
+
+    <p>Bir kullanıcı, AI ile dakikalarca doğru promptu bulmak için tartışmayı, bir alışveriş merkezinde kapıya en yakın yeri bulmak için 15 dakika otoparkta dönmeye benzetmiş. Oysa arabayı uzağa park edip bir dakika yürümek (yani kodu manuel düzeltmek) çok daha hızlı diye belirtip “ne zaman müdahele etmen gerektiğini” bilmenin öneminden bahsetmiş.</p>
+  </li>
+  <li>
+    <p>Go resmi blogunda <a href="https://go.dev/blog/survey2025">yayınlanan anket</a> sonuçlarına göre, Go geliştiricileri en çok best practice’lerin netleşmesi ve standart kütüphanenin daha verimli kullanımı konusunda destek istiyor. AI destekli araçlar yaygın olarak kullanılsa da, özellikle çıktı kalitesi nedeniyle memnuniyet orta seviyede kalıyor. Ayrıca go build, go run ve go mod gibi temel komutlar için bile dokümantasyona sıkça dönülmesi, go komutlarının yardım sisteminde iyileştirme alanı olduğunu gösteriyor.</p>
+  </li>
+</ul>
+
+<h3 id="kurcalamaca">Kurcalamaca</h3>
+<p><a href="https://howbrowserswork.com/">How Browsers Work</a>, web tarayıcılarının çalışma prensiplerini interaktif bir şekilde anlatan güzel bir kaynak. Şu an bu yazıyı okuduğunuz tarayıcının önünüze yazıyı getirene kadar neler yaptığına dair bir mental model oluşturabilirsiniz bu site sayesinde.</p>
+
+<h3 id="yazarın-seçkisi">Yazarın Seçkisi</h3>
+<p>Bu hafta <a href="https://www.joanwestenberg.com/how-convenience-kills-curiosity/">how convenience kills curiosity</a> adlı bu yazıyı okudum. Teknolojinin hayatımızı kolaylaştırdığı birçok noktada, aslında merak etme ve öğrenme becerilerimizi körelttiğini anlatıyor. Özellikle yapay zeka kullanımı konusunda bu konu benim gündemimde sürekli olarak. Kurcalayarak, araştırarak ve soruşturarak sonuca varmanın verdiği keyifle, hızlı ve pratik çözümlerin arasında denge kurmaya özen göstermek gerekiyor. <strong>Sizler bu konuda neler düşünüyorsunuz?</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>Böylelikle ilk sayımızı hızlı bir şekilde tamamlamış olalım. Beni oldukça heyecanlandıran bu çalışmanın geleceği hakkında görüşlerinizi ve önerilerinizi bekliyorum. Bir sonraki sayıda görüşmek üzere!</p>
+
+<p>Hilal 🤘🏼</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Localde çalışıyordu bülteninin ilk sayısına hoşgeldiniz! Yazılım/Programlama grubunun yeni periyodik çalışması olacağını umduğumuz bu bültende programlama dünyasında gördüğümüz gelişmeleri ve fikirleri paylaşacağız.]]></summary></entry></feed>

@@ -1,0 +1,13 @@
+---
+layout: default
+title: Arşiv
+---
+
+<ul class="archive-list">
+  {% for post in site.posts %}
+  <li class="archive-item">
+    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  </li>
+  {% endfor %}
+</ul>
