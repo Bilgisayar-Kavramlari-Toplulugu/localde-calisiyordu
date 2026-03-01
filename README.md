@@ -1,14 +1,11 @@
-# localde çalışıyordu Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir. (Örnek)
+# localde çalışıyordu
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Bilgisayar-Kavramlari-Toplulugu-181717?style=flat-square&logo=github)](https://github.com/Bilgisayar-Kavramlari-Toplulugu/localde-calisiyordu)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-**Part of [localde çalışıyordu Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir.](docs/Project-Definition.md)**
-
-Site Jekyll tabanlıdır ve GitHub Pages üzerinde barındırılmaktadır.
-
+Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir.
 </div>
 
 ---
@@ -18,17 +15,19 @@ Site Jekyll tabanlıdır ve GitHub Pages üzerinde barındırılmaktadır.
 
 <br>
 
-> **ÖNEMLİ:** Bu repository **localde çalışıyordu Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir.** projesinin bir parçasıdır. Proje hakkında detaylı bilgi için [`docs/Project-Definition.md`](docs/Project-Definition.md) dosyasına bakın.
+> **ÖNEMLİ:** Bu repository **localde çalışıyordu** projesinin bir parçasıdır. Proje hakkında detaylı bilgi için [`docs/Project-Definition.md`](docs/Project-Definition.md) dosyasına bakın.
 
 ## 📖 Hakkında
 
-<!-- Bu repository'nin ne yaptığını buraya yazın -->
+Bu repository, **Bilgisayar Kavramları Topluluğu** bünyesindeki Yazılım/Programlama grubu tarafından hazırlanan bültenlerin dijital arşivi ve yayın platformudur. Yazılım dünyasındaki güncel gelişmeler, topluluk içi haberler ve teknik makaleler Jekyll altyapısı kullanılarak bir statik site formatında sunulur.
 
 ## 🚀 Kurulum
 
 ### Gereksinimler
 
-- Gerekli araçları buraya listeleyin
+- **Ruby**
+- **Bundler**
+- **Jekyll**
 
 ### Başlangıç
 
@@ -36,44 +35,55 @@ Site Jekyll tabanlıdır ve GitHub Pages üzerinde barındırılmaktadır.
 git clone https://github.com/Bilgisayar-Kavramlari-Toplulugu/localde-calisiyordu.git
 cd localde-calisiyordu
 
-# Kurulum adımlarını buraya ekleyin
+# Bağımlılıkları yükleyin
+bundle install
+
 ```
 
 ## 💻 Kullanım
 
+Siteyi yerel ortamda önizlemek için:
+
 ```bash
-# Uygulamayı çalıştırma komutunu buraya ekleyin
+bundle exec jekyll serve
+
 ```
+
+Tarayıcınızdan `http://localhost:4000` adresine giderek siteyi görüntüleyebilirsiniz.
 
 ## 📁 Proje Yapısı
 
 ```
 localde-calisiyordu/
-├── src/          # Kaynak kodlar
-├── tests/        # Testler
-├── docs/         # Dokümantasyon
+├── _posts/       # Bülten içerikleri (Markdown dosyaları)
+├── _layouts/     # Sayfa şablonları
+├── assets/       # Görseller, CSS ve JS dosyaları
+├── docs/         # Proje dokümantasyonu
 └── README.md     # Bu dosya
+
 ```
 
 ## 🧪 Test
 
 ```bash
-# Test komutlarını buraya ekleyin
+# Jekyll build testi
+bundle exec jekyll build
+
 ```
 
 ## 🤝 Katkıda Bulunma
 
-Katkıda bulunmak için lütfen [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) dosyasını inceleyin.
+Katkıda bulunmak için lütfen [`CONTRIBUTING.md`](https://www.google.com/search?q=.github/CONTRIBUTING.md) dosyasını inceleyin.
 
 ## 📚 Dokümantasyon
 
-- [Proje Tanımı](docs/Project-Definition.md)
-- [Mimari Genel Bakış](docs/Architecture-Overview.md)
-- [Geliştirme Akışı](docs/Development-Workflow.md)
+* [Proje Tanımı](https://www.google.com/search?q=docs/Project-Definition.md)
+* [Mimari Genel Bakış](https://www.google.com/search?q=docs/Architecture-Overview.md)
+* [Geliştirme Akışı](https://www.google.com/search?q=docs/Development-Workflow.md)
 
 ## 📄 Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](https://www.google.com/search?q=LICENSE) dosyasına bakın.
 
 ---
 
@@ -84,19 +94,19 @@ Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE)
 <details>
 <summary><strong>🇬🇧 English</strong></summary>
 
-<br>
-
-> **IMPORTANT:** This repository is part of **localde çalışıyordu Yazılım/Programlama grubu tarafından hazırlanan bültenleri yayınlamak için kullanılan bir statik websitesidir.** project. See [`docs/Project-Definition.md`](docs/Project-Definition.md) for details.
+> **IMPORTANT:** This repository is part of the **localde çalışıyordu** project. See [`docs/Project-Definition.md`](https://www.google.com/search?q=docs/Project-Definition.md) for details.
 
 ## 📖 About
 
-<!-- Describe what this repository does -->
+This repository is the digital archive and publishing platform for newsletters prepared by the Programming group within the **Computer Concepts Community (Bilgisayar Kavramları Topluluğu)**. It delivers software industry news, community updates, and technical articles as a static website powered by Jekyll.
 
 ## 🚀 Installation
 
 ### Requirements
 
-- List required tools here
+* **Ruby** (3.0 or higher)
+* **Bundler**
+* **Jekyll**
 
 ### Getting Started
 
@@ -104,44 +114,55 @@ Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE)
 git clone https://github.com/Bilgisayar-Kavramlari-Toplulugu/localde-calisiyordu.git
 cd localde-calisiyordu
 
-# Add installation steps here
+# Install dependencies
+bundle install
+
 ```
 
 ## 💻 Usage
 
+To preview the site locally:
+
 ```bash
-# Add command to run the application
+bundle exec jekyll serve
+
 ```
+
+Access the site via `http://localhost:4000` in your browser.
 
 ## 📁 Project Structure
 
 ```
 localde-calisiyordu/
-├── src/          # Source code
-├── tests/        # Tests
-├── docs/         # Documentation
+├── _posts/       # Newsletter content
+├── _layouts/     # Page templates
+├── assets/       # Images, CSS, and JS files
+├── docs/         # Project documentation
 └── README.md     # This file
+
 ```
 
 ## 🧪 Testing
 
 ```bash
-# Add test commands here
+# Build test
+bundle exec jekyll build
+
 ```
 
 ## 🤝 Contributing
 
-Please see [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) for contribution guidelines.
+Please see [`CONTRIBUTING.md`](https://www.google.com/search?q=.github/CONTRIBUTING.md) for contribution guidelines.
 
 ## 📚 Documentation
 
-- [Project Definition](docs/Project-Definition.md)
-- [Architecture Overview](docs/Architecture-Overview.md)
-- [Development Workflow](docs/Development-Workflow.md)
+* [Project Definition](https://www.google.com/search?q=docs/Project-Definition.md)
+* [Architecture Overview](https://www.google.com/search?q=docs/Architecture-Overview.md)
+* [Development Workflow](https://www.google.com/search?q=docs/Development-Workflow.md)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 ---
 
