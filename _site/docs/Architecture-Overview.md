@@ -54,56 +54,6 @@ localde-calisiyordu/
 
 ---
 
-## ⚙️ Derleme ve Veri Akışı
-
-```
-Yazar        →   _posts/*.md        Markdown içerik
-     ↓
-Jekyll       →   Liquid şablon işleme  (_layouts/, _config.yml, index.md)
-     ↓
-Çıktı        →   _site/             Statik HTML + CSS + feed.xml
-     ↓
-Tarayıcı     →   localhost:4000 veya GitHub Pages
-```
-
-Tipik bir sayfa isteğinin akışı:
-
-1. Tarayıcı `/` adresini ister → `_site/index.html` sunulur (bülten arşivi)
-2. Kullanıcı bir bülten başlığına tıklar → `/2026/02/09/feb-2.html` sunulur
-3. JavaScript dark mode tercihini `localStorage`'dan okur ve `<html data-theme>` ile CSS değişkenlerini devreye alır
-4. `jekyll-feed` eklentisi, `/feed.xml` olarak erişilebilen bir RSS beslemesi üretir
-
----
-
-## 🛠️ Teknoloji Seçimleri ve Gerekçeleri
-
-| Teknoloji | Neden Seçildi |
-|---|---|
-| **Jekyll** | GitHub Pages ile yerel desteği var; Ruby ekosistemi olgun; blog odaklı projelerde minimal yapılandırma yeterli |
-| **Vanilla CSS** | Derleme adımı gerektirmiyor; CSS değişkenleriyle dark mode basitçe yönetiliyor; küçük proje için yeterli |
-| **Markdown** | Yazarlar teknik olmayan bir sözdizimle kolayca içerik üretebiliyor |
-| **GitHub Pages** | Ücretsiz, statik site barındırma; Jekyll'ı yerelden destekliyor |
-| **jekyll-feed** | RSS beslemesi için sıfır yapılandırma; okuyucuların abone olmasını sağlıyor |
-
----
-
-## 🎨 Dark Mode Mimarisi
-
-Dark mode saf CSS değişkenleri ve minimal JavaScript ile uygulanmıştır:
-
-- `style.css` iki kural seti tanımlar: `:root { }` (açık tema) ve `[data-theme="dark"] { }` (koyu tema)
-- `default.html` içindeki toggle butonu `<html>` elemanına `data-theme="dark"` ekler/kaldırır
-- Tercih `localStorage`'a kaydedilir, böylece sayfa geçişlerinde korunur
-
-</details>
-
-<details>
-<summary><strong>🇬🇧 English</strong></summary>
-<br>
-
-This page describes the architecture of **localde çalışıyordu**, its main components, and how they relate to each other.
-
----
 
 ## 🗂️ Project Overview
 
@@ -148,48 +98,5 @@ localde-calisiyordu/
 ├── Gemfile              # Ruby dependencies
 └── _site/               # Jekyll's generated output (not tracked in version control)
 ```
-
----
-
-## ⚙️ Build Pipeline & Data Flow
-
-```
-Author       →   _posts/*.md        Markdown content
-     ↓
-Jekyll       →   Liquid templating  (_layouts/, _config.yml, index.md)
-     ↓
-Output       →   _site/             Static HTML + CSS + feed.xml
-     ↓
-Browser      →   localhost:4000 or GitHub Pages
-```
-
-Typical page request flow:
-
-1. Browser requests `/` → `_site/index.html` is served (newsletter archive)
-2. User clicks a newsletter title → `/2026/02/09/feb-2.html` is served
-3. JavaScript reads the dark mode preference from `localStorage` and activates CSS variables via `<html data-theme>`
-4. The `jekyll-feed` plugin produces an RSS feed accessible at `/feed.xml`
-
----
-
-## 🛠️ Technology Choices & Rationale
-
-| Technology | Why It Was Chosen |
-|---|---|
-| **Jekyll** | Native GitHub Pages support; mature Ruby ecosystem; minimal config for blog-type projects |
-| **Vanilla CSS** | No build step required; dark mode managed cleanly with CSS variables; sufficient for the project's scale |
-| **Markdown** | Authors can produce content without technical syntax knowledge |
-| **GitHub Pages** | Free, zero-config static hosting with built-in Jekyll support |
-| **jekyll-feed** | Zero-config RSS feed generation; allows readers to subscribe |
-
----
-
-## 🎨 Dark Mode Architecture
-
-Dark mode is implemented with pure CSS variables and minimal JavaScript:
-
-- `style.css` defines two rule sets: `:root { }` (light theme) and `[data-theme="dark"] { }` (dark theme)
-- The toggle button in `default.html` adds/removes `data-theme="dark"` on the `<html>` element
-- The preference is saved to `localStorage` so it persists across page navigations
 
 </details>
